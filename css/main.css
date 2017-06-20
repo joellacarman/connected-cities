@@ -1,0 +1,190 @@
+
+body {
+  background-color: #f9fcff;
+  font-family: Gotham, Verdana, Sans-serif;
+  font-size: 1.1em;
+}
+
+#spacer-from-intro {
+  background-color: #eaf6ff;
+  height: 100px;
+  width: 100%;
+}
+
+/* Here is our relatively positioned
+ * container div to hold the rest of the
+ * visualization */
+#vis-container {
+  position: relative;
+  margin-top: 10px;
+  height: 500px;
+  width: 790px;
+}
+
+#my-container{
+  margin: auto;
+  padding: 30px;
+}
+
+#my-container h1 {
+  color: #285AA8;
+  font-weight: bold;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+#my-container h2 {
+  color: #285AA8;
+  font-size: 1em;
+  font-weight: lighter;
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
+}
+
+h4 {
+  margin: 0;
+  padding-left: 5px;
+}
+
+#vis-nav {
+  position: relative;
+  top: 10px;
+  z-index: 20;
+}
+
+/* Basic styling for the step links */
+a.step-link {
+  padding: 5px;
+  background-color: #71A0D5;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a.step-link:hover, a.active {
+  background-color: #1E4586;
+  color: #FFFFFF;
+}
+
+p.intro {
+  width: 580px;
+}
+
+#data-collection-icons {
+  opacity: 0;
+}
+
+#streetlight {
+  display: none;
+}
+
+/* All the .annotation-step divs are inside
+ * #annotation-steps. z-index ensures annotations
+ * stay on top of visualization. */
+#annotation-steps {
+  position: absolute;
+  z-index: 40;
+}
+
+/* By default, all annotation-steps are hidden. */
+.annotation-step {
+  position: absolute;
+  display: none;
+}
+
+.annotation {
+  position: absolute;
+}
+
+.annotation p {
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  font-size: 0.9em;
+  margin: 0;
+  opacity: 0.8;
+  padding: 5px;
+  width: 300px;
+}
+
+/*specific positioning for each caption*/
+
+#freight-caption {
+  top: 60px;
+}
+
+#congestion-sensor-caption {
+  left: 10px;
+  top: 345px;
+}
+
+#fleet-caption {
+  left: 466px;
+  top: 42px;
+}
+
+#self-driving-caption {
+  left: 413px;
+  top: 260px;
+}
+
+#parking-caption {
+  left: 387px;
+  top: 406px;
+}
+
+#waste-caption {
+  top: 184px;
+}
+
+#wastewater-caption {
+  left: 127px;
+  top: 450px;
+}
+
+#solar-caption {
+  left: 458px;
+  top: 18px;
+}
+
+#lighting-caption {
+  left: 420px;
+  top: 295px;
+}
+
+#fire-caption {
+  left: 50px;
+  top: 50px;
+}
+
+#radiation-caption {
+  left: 430px;
+  top: 17px;
+}
+
+#ecommerce-caption {
+  left: 430px;
+  top: 260px;
+}
+
+#surveillance-caption {
+  top: 88px;
+}
+
+#broadband-caption {
+  left: 60px;
+  top: 344px;
+}
+
+#drones-caption {
+  top: 17px;
+  left: 455px;
+}
+
+#body-camera-caption {
+  top: 206px;
+  left: 488px;
+}
+
+#wearables-caption {
+  top: 403px;
+  left: 399px;
+}
